@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIGMA | Макеты для верстки - Верстка страницы</title> 
+    <meta name="description" content="Макет для верстки сайта был взят с телеграм канала FIGMA | Макеты для верстки">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__left-side">
+            <h1 class="company-name">EgyptTour</h1>
+            <div class="vertical-Line"></div>
+            <div class="find-wrapper">
+
+                <a href="#" class="searh-href"> <img src="./images/search.svg" alt=""></a>
+                <input type="text" placeholder="Search" class="search-input">
+            </div>
+
+        </div>
+
+        <ul class="header__right-side">
+            <li class="right-side__item"><a href="#" class="menu-item">Home</a></li>
+            <li class="right-side__item"><a href="#" class="menu-item">Guides</a></li>
+            <li class="right-side__item"><a href="#" class="menu-item">About</a></li>
+            <li class="right-side__item"><a href="#" class="menu-item">Inspiration</a></li>
+            <li class="right-side__item"><a href="#" class="menu-item">Contact</a></li>
+            <li class="right-side__item"><a href="#" class="menu-item__big">Sign Up</a></li>
+
+        </ul>
+    </header>
+
+
+    <section class="first-section">
+
+        <form action="post" class="user-form">
+            <div class="form-item">
+                <p class="form-item__name">Gender</p>
+                <div class="select">
+                    <select class="form-item__input" id="sex-select">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="vertical-Line__big"></div>
+
+            <div class="form-item">
+                <p class="form-item__name">Age</p>
+                <div class="select">
+                    <select class="form-item__input" id="age-select">
+                        <option value="24+">24+</option>
+                        <option value="18+">18+</option>
+                        <option value="30+">30+</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="vertical-Line__big"></div>
+
+            <div class="form-item">
+                <p class="form-item__name">Language</p>
+                <div class="select">
+                    <select class="form-item__input" id="language-select">
+                        <option value="English, Arabic">English, Arabic</option>
+                        <option value="Russian, Chinees">Russian, Chinees</option>
+                    </select>
+                </div>
+            </div>
+            <div class="vertical-Line__big"></div>
+
+            <div class="form-item">
+                <p class="form-item__name">Lacalisation</p>
+                <div class="select">
+                    <select class="form-item__input" id="lacalisation-select">
+                        <option value="Cairo">Cairo</option>
+                        <option value="London">London</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="search-btn" type="submit">Search</button>
+
+        </form>
+    </section>
+
+
+    <section class="second-section">
+
+        <div class="top-line">
+            <p class="big-text">Guides for you!</p>
+            <a href="#" class="main-btn">See All Guides</a>
+        </div>
+
+        <div class="users">
+            <div class="usercard">
+                <img src="./images/user1.png" alt="user-img" class="user-img">
+                <div class="user-name">Abayomi Mallik</div>
+                <div class="user-raitng">
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                </div>
+                <div class="rewies">1000+ reviews</div>
+            </div>
+            <div class="usercard">
+                <img src="./images/user2.png" alt="user-img" class="user-img">
+                <div class="user-name">Berenike Eman</div>
+                <div class="user-raitng">
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+
+                </div>
+                <div class="rewies">1000+ reviews</div>
+            </div>
+            <div class="usercard">
+                <img src="./images/user3.png" alt="user-img" class="user-img">
+                <div class="user-name">Abu Bakar</div>
+                <div class="user-raitng">
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                </div>
+                <div class="rewies">1000+ reviews</div>
+            </div>
+            <div class="usercard">
+                <img src="./images/user4.png" alt="user-img" class="user-img">
+                <div class="user-name">Dendera Heba</div>
+                <div class="user-raitng">
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                    <svg class="star" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.947 9.179C21.818 8.801 21.477 8.534 21.079 8.503L15.378 8.05L12.911 2.589C12.75 2.23 12.393 2 12 2C11.607 2 11.25 2.23 11.089 2.588L8.62198 8.05L2.92098 8.503C2.52998 8.534 2.19298 8.791 2.05998 9.16C1.92698 9.529 2.02098 9.942 2.30198 10.216L6.51498 14.323L5.02498 20.775C4.93298 21.174 5.09398 21.589 5.43098 21.822C5.60298 21.94 5.80098 22 5.99998 22C6.19298 22 6.38698 21.944 6.55498 21.832L12 18.202L17.445 21.832C17.793 22.064 18.25 22.055 18.59 21.808C18.928 21.561 19.077 21.128 18.962 20.726L17.133 14.326L21.669 10.244C21.966 9.976 22.075 9.558 21.947 9.179Z" />
+                    </svg>
+                </div>
+                <div class="rewies">1000+ reviews</div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="third-section">
+
+        <p class="big-text guide__big-text">How does it Work?</p>
+
+        <div class="guide__wrapper">
+            <div class="guide-card">
+                <img class="guide__img" src="./images/img1.png" alt="guide__img1">
+                <p class="plain-text small-width">Select a Guide</p>
+            </div>
+
+
+            <div class="guide-card">
+                <img class="guide__img" src="./images/img2.png" alt="guide__img2">
+                <p class="plain-text small-width">Contact Guide </p>
+            </div>
+
+
+            <div class="guide-card">
+                <img class="guide__img" src="./images/img3.png" alt="guide__img3">
+                <p class="plain-text small-width">Create your Travel</p>
+            </div>
+        </div>
+
+        <div class="gudie-descripton">
+
+            <div class="gudie-descripton__bottom">
+                <p class="plain-text big-width">Be referenced on our site, <span class="orange-text"> it's 100%
+                        free!</span></p>
+                <div class="gudie-descripton__right-side">
+                    <a href="#" class="main-btn">I am a Tourist Guide</a>
+                    <div class="users-avatars">
+                        <img class="users-avatars__img" src="./images/all-users.png" alt="all_users">
+                        <p class="small-text"> <span class="orange-text bold-text">1000+</span> tourist join us</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <p class="big-text guide__big-text">Learn more About Egypt</p>
+        <div class="hotels__wrapper">
+            <div class="hotel-card__big">
+                <img src="./images/big-card.png" alt="" class="hotel-card__img">
+                <a href="#" class="hotel-card__btm">Hotel</a>
+                <a href="#" class="hotel-card__text">Where to sleep in Luxor? <img class="hotel-card__text-arrow"
+                        src="./images/arrow.svg" alt="arrow-img"> </a>
+            </div>
+
+
+            <div class="hotel__samll-cards__wrapper">
+                <div class="hotel-card__small">
+                    <img src="./images/small-card1.png" alt="" class="hotel-card__small-img">
+                    <div class="hotel-card__small__text">
+                        <a href="#" class="hotel-card__btm hotel__small-cardBtn ">Restaurant</a>
+                        <a href="#" class="hotel-card__text">5 restaurant in Cairo <img src="./images/arrow.svg"
+                                class="hotel-card__text-arrow" alt="arrow-img"> </a>
+                    </div>
+                </div>
+                <div class="hotel-card__small">
+                    <img src="./images/small-card2.png" alt="" class="hotel-card__small-img">
+                    <div class="hotel-card__small__text">
+                        <a href="#" class="hotel-card__btm hotel__small-cardBtn ">Advance & Tip</a>
+                        <a href="#" class="hotel-card__text">Is Egypt dangerous? <img src="./images/arrow.svg"
+                                alt="arrow-img" class="hotel-card__text-arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<footer class="footer">
+
+    <div class="footer-wrapper">
+        <div class="footer__about">
+            <p class="footer__big-text">EgyptTour</p>
+            <p class="footer__small-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+        <div class="footer__links">
+            <p class="footer__medium-text">Useful Links</p>
+            <ul class="footer-list">
+                <li class="footer-list__item">About</li>
+                <li class="footer-list__item">Guide</li>
+                <li class="footer-list__item">Inspiration</li>
+                <li class="footer-list__item">Contact</li>
+            </ul>
+        </div>
+
+
+        <div class="footer__resourses">
+            <p class="footer__medium-text">Resources</p>
+            <ul class="footer-list">
+                <li class="footer-list__item">Become a guide</li>
+                <li class="footer-list__item">Legal</li>
+                <li class="footer-list__item">Blog</li>
+                <li class="footer-list__item">Help </li>
+            </ul>
+        </div>
+
+        <div class="footer__contatcts">
+            <p class="footer__medium-text">Contact Us</p>
+
+            <div class="footer__mailMap-info"> <img src="./images/mail.svg" alt="mail_img">
+                <p>infomail@gmail.com</p>
+            </div>
+            <div class="footer__mailMap-info"> <img src="./images/map.svg" alt="map_img">
+                <p> 48 Street Road, Cairo</p>
+            </div>
+
+
+            <div class="icons">
+                <a href="#" class="icon"><img src="./images/facebook.svg" alt="facebook_img"></a>
+                <a href="#" class="icon"><img src="./images/twitter.svg" alt="twitter_img"></a>
+                <a href="#" class="icon"><img src="./images/inst.svg" alt="inst_img"></a>
+                <a href="#" class="icon"><img src="./images/in.svg" alt="in_img"></a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="footer__bottom-row">
+        <p class="bottom-row__text">© 2022  <span class="orange-text">EgyptTour   </span>  </p>
+        <div class="bottom-row__rigth-side">
+            <p class="bottom-row__text">Privacy Policy </p>
+            <p class="bottom-row__text">Term of Condition</p>
+
+        </div>
+    </div>
+</footer>
+
+</html>

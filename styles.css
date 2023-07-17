@@ -1,0 +1,643 @@
+body {
+    width: 1500px;
+    font-family: 'Mont', sans-serif;
+    margin: auto;
+}
+
+p,
+a,
+h1 {
+    text-decoration: none;
+    padding: 0 0;
+    margin: 0 0;
+    font-family: 'Mont', sans-serif;
+}
+
+
+
+
+@font-face {
+    font-family: 'Mont';
+    src: local('Mont'),
+        url('./fonts/Mont-Regular.woff');
+}
+
+
+@font-face {
+    font-family: 'Mont-SemiBold';
+    src: local('Mont'),
+        url('./fonts/Mont-SemiBold.woff');
+}
+
+@font-face {
+    font-family: 'Mont-Black';
+    src: local('Mont'),
+        url('./fonts/Mont-Black.woff');
+}
+
+@font-face {
+    font-family: 'Mont-Bold';
+    src: local('Mont'),
+        url('./fonts/Mont-Bold.woff');
+}
+
+.header {
+    width: 1240px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 27px;
+
+}
+
+
+.header__left-side {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    font-weight: 800;
+    font-size: 28px;
+    font-family: 'Mont-Bold', sans-serif;
+}
+
+.vertical-Line {
+    border-left: 2px solid #0B06144D;
+    border-radius: 2px;
+    height: 32px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+
+.find-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+.searh-href {
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+}
+
+.search-input {
+    height: fit-content;
+    font-size: 16px;
+    color: #0B0614;
+    border: none;
+    font-family: 'Mont-SemiBold', sans-serif;
+    padding: 0;
+
+}
+.search-input::placeholder{
+    color: rgba(11, 6, 20, 0.30);
+    font-size: 16px;
+}
+
+
+
+.search-input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.right-side__item {
+    font-size: 16px;
+
+}
+
+.header__right-side {
+    margin-bottom: 0;
+}
+
+.header__right-side li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-item {
+    font-family: 'Mont-SemiBold', sans-serif;
+    color: #0B0614;
+    margin-right: 40px;
+}
+
+
+.menu-item__big {
+    font-size: 17px;
+    font-family: 'Mont-SemiBold', sans-serif;
+    background-color: #FF5029;
+    padding: 20px 30px 20px 30px;
+    display: inline-block;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.first-section {
+    margin: auto;
+    width: 1360px;
+    height: 740px;
+    background-image: url(./images/desert.png);
+    position: relative;
+    margin-bottom: 190px;
+}
+
+.user-form {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -64px;
+    left: 60px;
+    background-color: #FFFFFF;
+    width: 1176px;
+    box-shadow: 0px 30px 60px 0px #C6BFBF2E;
+    border-radius: 24px;
+    padding: 24px 24px 24px 40px;
+
+}
+
+.form-item {
+    width: 213px;
+}
+
+.search-btn {
+    background-color: #FF5029;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Mont-SemiBold', sans-serif;
+    width: 135px;
+    height: 80px;
+    border-radius: 16px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+
+.form-item__name {
+    font-family: 'Mont', sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #0B0614;
+    opacity: 0.5;
+
+}
+
+.vertical-Line__big {
+    border-left: 1px solid #0B06144D;
+    border-radius: 1px;
+    height: 52px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.form-item__input {
+    border: none;
+    font-family: 'Mont-SemiBold', sans-serif;
+    font-size: 20px;
+    padding: 0;
+    width: 213px;
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+}
+
+.select:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    background-image: url('./images/chevron-down.svg');
+    pointer-events: none;
+    box-sizing: border-box;
+
+}
+
+.form-item__input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.second-section {
+    width: 1240px;
+    margin: auto;
+    margin-bottom: 190px;
+}
+
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.big-text {
+    font-size: 64PX;
+    font-family: 'Mont-Bold', sans-serif;
+}
+
+.main-btn {
+    font-size: 18px;
+    color: white;
+    background-color: #FF5029;
+    border-radius: 12px;
+    padding: 20px 40px;
+    height: fit-content;
+    line-height: 30px;
+}
+
+.usercard {
+
+    border-radius: 20px;
+    box-shadow: 0px 30px 60px 0px rgba(198, 191, 191, 0.15), 0px -8px 20px 0px rgba(235, 235, 235, 0.15);
+    width: 288px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.user-img {
+    border-radius: 50%;
+    border: 2px solid var(--accent, #FF5029);
+    margin: auto;
+    width: 184px;
+    height: 184px;
+    margin-bottom: 30px;
+}
+
+.user-name {
+    font-size: 24px;
+    font-family: 'Mont-Bold', sans-serif;
+    margin-bottom: 12px;
+    line-height: 32px;
+}
+
+
+.star {
+    height: 24px;
+    width: 24px;
+    fill: #FF5029;
+}
+
+.user-raitng {
+    margin-bottom: 8px;
+    height: 24px;
+}
+
+.rewies {
+    font-size: 16px;
+    font-family: 'Mont', sans-serif;
+    padding-bottom: 40px;
+    opacity: 60%;
+}
+
+.users {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usercard:hover {
+    background-color: #FF5029;
+    transition: all 0.5s;
+    color: #FFFFFF;
+
+}
+
+.usercard:hover .star {
+    fill: #FFFFFF;
+}
+
+
+.guide__wrapper {
+    margin-top: 100px;
+    margin-bottom: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-card {
+    background-color: #FEF4F5;
+    border-radius: 20px;
+    width: 393px;
+
+    text-align: center;
+    padding-top: 45px;
+}
+
+.guide__img {
+    margin-bottom: 45px;
+}
+
+.plain-text {
+    padding-bottom: 45px;
+
+    color: #0B0614;
+
+    font-family: 'Mont-SemiBold', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+
+
+}
+
+.small-width {
+    width: 295px;
+    margin: auto;
+}
+
+
+.guide-card+.guide-card {
+    margin-left: 30px;
+}
+
+.guide__big-text {
+    text-align: center;
+}
+
+.gudie-descripton {
+    background-image: url('./images/desert2.png');
+    width: 1360px;
+    height: 740px;
+    margin: auto;
+    margin-bottom: 304px;
+    position: relative;
+
+}
+
+
+
+.gudie-descripton__bottom {
+    position: absolute;
+    width: 1155px;
+    border-radius: 24px;
+    box-shadow: 0px 30px 60px 0px rgba(198, 191, 191, 0.18);
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    bottom: -113px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.big-width {
+    width: 572px;
+    text-align: left;
+}
+
+.orange-text {
+    color: #FF5029;
+}
+
+.users-avatars {
+    margin-top: 45px;
+    display: flex;
+}
+
+.small-text {
+    color: rgba(11, 6, 20, 0.60);
+    font-family: 'Mont', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    width: 103px;
+    text-align: left;
+}
+
+.users-avatars__img {
+    margin-right: 16px;
+}
+
+.bold-text {
+    font-family: 'Mont-Bold', sans-serif;
+
+}
+
+.hotels__wrapper {
+
+    width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+
+
+
+.hotel-card__big {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(198, 191, 191, 0.15), 0px -8px 20px 0px rgba(235, 235, 235, 0.15);
+    width: 605px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+
+}
+
+.hotel-card__img {
+    width: 545px;
+    height: 367px;
+    border-radius: 16px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.hotel-card__btm {
+    padding: 8px 30px 8px 20px;
+    border-radius: 12px;
+    background: #FEF4F5;
+    color: #FF5029;
+    font-family: 'Mont-SemiBold', sans-serif;
+    font-size: 24px;
+    width: fit-content;
+    margin-left: 30px;
+    margin-bottom: 24px;
+}
+
+.hotel-card__text {
+    font-family: 'Mont-SemiBold', sans-serif;
+    width: 354px;
+    font-size: 40px;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    line-height: 52px;
+    cursor: pointer;
+    color: #0B0614;
+}
+
+.hotel-card__text-arrow {
+    padding-top: 5px;
+    position: absolute;
+}
+
+.hotel-card__small {
+    width: 575px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(198, 191, 191, 0.15), 0px -8px 20px 0px rgba(235, 235, 235, 0.15);
+    padding: 30px 0 30px 30px;
+
+    display: flex;
+}
+
+.hotel-card__small__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-card__small-img {
+    width: 181px;
+    height: 243px;
+    border-radius: 20px;
+}
+.hotel__small-cardBtn{
+    margin-top: 30px;
+}
+
+
+.hotel-card__small + .hotel-card__small{
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: #0B0614;
+    color: #FFFFFF 
+}
+
+.footer-wrapper{
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.15);
+    margin-bottom: 30px;
+    
+}
+.footer__big-text{
+    font-family: 'Mont-Bold', sans-serif;
+    font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 40px;
+margin-bottom: 30px;
+margin-top: 90px;
+}
+
+
+.footer__about{
+    width: 333px;
+}
+
+.footer__small-text{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Mont', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+margin-bottom: 62px;
+
+}
+
+
+.footer__links{
+    width: 120px;
+   
+}
+
+.footer__medium-text{
+    
+    margin-top: 96px;
+    font-family: 'Mont-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.footer-list{
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.footer-list__item{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.80);
+    line-height: 28px;
+}
+
+.footer-list__item + .footer-list__item {
+    margin-top: 12px;
+}
+
+.footer__resourses{
+    width: 132px;
+}
+
+.footer__contatcts{
+    width: 207px;
+}
+
+
+.footer__mailMap-info{
+    display: flex;
+}
+
+.footer__mailMap-info p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 12px;
+}
+
+.footer__mailMap-info + .footer__mailMap-info{
+    margin-top: 12px;
+}
+
+.icons{
+    margin-top: 30px;
+}
+
+.footer__bottom-row{
+    width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   padding-bottom: 40px;
+}
+
+.bottom-row__rigth-side{
+    display: flex;
+    justify-content: space-between;
+    width: 291px;
+
+}
+
+.bottom-row__text{
+    width: fit-content;
+    color: rgba(255, 255, 255, 0.80);
+}
